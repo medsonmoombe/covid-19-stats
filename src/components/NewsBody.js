@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { generate } from 'randomized-string';
 import { FaSearch } from 'react-icons/fa';
-import NewsList from './NewsList';
 import fetchResults from '../redux/news/FetchResults';
 import { fetchResult } from '../redux/news/resultReducer';
+import './NewsBody.css';
 
 const NewsBody = () => {
   const results = useSelector((state) => state.results);
@@ -48,7 +49,8 @@ const NewsBody = () => {
         <ul className="list-country">
           {covidCountry.map((country) => (
             <Link
-              key={Date.now()}
+              className="a"
+              key={generate()}
               to={{ pathname: `/country/${country.country}` }}
             >
               <li className="list-details">
@@ -56,7 +58,7 @@ const NewsBody = () => {
                   <h1 className="name">{country.country}</h1>
                 </div>
                 <div>
-                  <h2 className="pupalution">Population:</h2>
+                  <h2 className="population">Population:</h2>
                   {' '}
                   <p className="number">{country.population.toLocaleString()}</p>
                 </div>
@@ -72,7 +74,6 @@ const NewsBody = () => {
           ))}
         </ul>
       </div>
-      <NewsList />
     </>
   );
 };

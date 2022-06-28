@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<NewsBody />} />
-        <Route exact path="/" element={<NewsList />} />
+        <Route exact path="/country/:name" element={<NewsList />} />
       </Routes>
     </Router>
   );

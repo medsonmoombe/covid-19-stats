@@ -6,7 +6,6 @@ const fetchResults = async () => {
   const results = [];
   const response = await axios.get(baseUrl);
   const responseArt = response.data;
-  console.log(responseArt);
 
   responseArt.map(({ countryInfo: { _id: id, flag }, ...data }) => {
     const covidResults = {
