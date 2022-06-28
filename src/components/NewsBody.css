@@ -12,6 +12,43 @@ body {
     width: inherit;
 }
 
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    background: #cd4275;
+    color: #fff;
+    list-style: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: none;
+    padding: 5px;
+}
+
+.selected-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.today {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.total {
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+}
+
 .list-country {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -60,6 +97,14 @@ img {
     justify-content: center;
     align-items: center;
     gap: 12px;
+}
+
+.form-input {
+    outline: none;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .area {
@@ -120,5 +165,17 @@ img {
     .name {
         font-size: 20px;
         margin-top: -54px;
+    }
+
+    .form {
+        margin-bottom: 30px;
+    }
+
+    .form-input {
+        outline: none;
+        padding: 3px;
+        border: none;
+        border-radius: 5px;
+        width: 253px;
     }
 }

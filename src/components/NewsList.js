@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import fetchResults from '../redux/news/FetchResults';
 import { fetchResult } from '../redux/news/resultReducer';
+import './NewsBody.css';
 
 const NewsList = () => {
   const results = useSelector((state) => state.results);
@@ -19,7 +20,7 @@ const NewsList = () => {
     <>
       <div className="container-fluid">
         <div className="continent">
-          <h1>{name}</h1>
+          <h1 className="selected-name">{name}</h1>
           <img
             src={selectedCountry.country_flag}
             alt="national-flag"
