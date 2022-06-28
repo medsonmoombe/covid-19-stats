@@ -25,6 +25,9 @@
 ## Live Demo 
 [Live Demo Link]()
 
+## Live video 
+[Live video](https://www.loom.com/share/f70309803f2d4645b21004b3897021e2)
+
 
 
 ## Getting Started
