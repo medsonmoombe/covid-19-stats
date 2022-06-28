@@ -1,23 +1,16 @@
 # Covid-19 statistics
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## Desktop
+![DESKc](https://user-images.githubusercontent.com/98400013/176186824-bb8512f9-097d-4e3e-896f-467af5c9a417.png)
 
-
+## Mobile
+![MOBc](https://user-images.githubusercontent.com/98400013/176186836-fd110fc9-ebbb-43d3-920e-775d5f0f5e02.png)
 
 
 
 > Description the project.
 > A responsive web app that displays COVID-19 statistics from different countries by fetching data from Covid-19 API.
-
-
-## Built With
-
-- HTML
-- CSS
-- JAVASCRIPT
-
-## Live Demo (if available)
-[Live Demo Link](https://medsonmoombe.github.io/todo-list/dist/index.html)
 
 
 
@@ -90,7 +83,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- [inspired by the behance website](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- [inspired by Nelson Sakwa on Behance website](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License
 
