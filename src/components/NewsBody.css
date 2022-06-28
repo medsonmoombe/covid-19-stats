@@ -73,6 +73,11 @@ button {
     gap: 39px;
 }
 
+.list-details:hover {
+    background: radial-gradient(black, transparent);
+    width: 95%;
+}
+
 .a {
     text-decoration: none;
 }
@@ -173,7 +178,7 @@ img {
 
     .form-input {
         outline: none;
-        padding: 3px;
+        padding: 5px;
         border: none;
         border-radius: 5px;
         width: 253px;
